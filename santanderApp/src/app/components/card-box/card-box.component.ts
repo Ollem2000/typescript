@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AccountDataModel } from 'src/app/model/accountDataModel';
 
 @Component({
@@ -6,9 +6,12 @@ import { AccountDataModel } from 'src/app/model/accountDataModel';
   templateUrl: './card-box.component.html',
   styleUrls: ['./card-box.component.css']
 })
-export class CardBoxComponent {
-  accountData: AccountDataModel = {
+export class CardBoxComponent implements OnInit{
+	ngOnInit(): void{
+		throw new Error('Method not implemented.')
+	}
 
+	accountData: AccountDataModel = {
 	name: "Felipe",
 	account: {
 		agency: "0000",

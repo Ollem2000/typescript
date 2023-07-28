@@ -9,6 +9,8 @@ import { CardBoxComponent } from './components/card-box/card-box.component';
 import { AmountBoxComponent } from './components/amount-box/amount-box.component';
 import { CarouselItemsComponent } from './components/carousel-items/carousel-items.component';
 
+import { HomeComponent } from './pages/home/home.component';
+
 import { SvgComponentsModule } from './modules/svg-components.module';
 
 @NgModule({
@@ -18,7 +20,8 @@ import { SvgComponentsModule } from './modules/svg-components.module';
     HeaderComponent,
     CardBoxComponent,
     AmountBoxComponent,
-    CarouselItemsComponent
+    CarouselItemsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

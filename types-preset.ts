@@ -1,16 +1,16 @@
-type preset = boolean | string | number | any;
+type Preset = boolean | string | number | any;
 
 let normal = "everything"
 
-let loading: preset;
+let loading: Preset;
 loading = false;
 
-let email: preset = "mail@email.com";
+let email: Preset = "mail@email.com";
 
-let num: preset;
+let num: Preset;
 num = 123
 
-let anyType: preset;
+let anyType: Preset;
 anyType = "everything"
 
 //others types:

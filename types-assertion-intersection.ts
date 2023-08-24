@@ -8,7 +8,7 @@ type Char = {
 }
 
 type PlayerInfo = User & Char & {
-	health?: 100;
+	health?: number;
 };
 
 let info: PlayerInfo = {

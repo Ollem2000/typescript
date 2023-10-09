@@ -4,5 +4,5 @@ interface User {
 }
 
 function registerNewUser(newUser: User){
-	newUser.//continue o codigo como quiser
+	newUser.id//continue o codigo como quiser
 }

@@ -7,7 +7,16 @@ bindings
 	(evento) = "Handler"        //event binding template HTML >> components ts
 	[(ngModel)] = "propriedade" //two way data binding; template HTML <<< components ts
 
+?
 	@angular/forms
+
+life cycle hooks
+	ngOnInit()
+	ngOnChanges()
+	ngDoCheck()
+
+eventos de check
+	...
 
 commands
 	ng serve

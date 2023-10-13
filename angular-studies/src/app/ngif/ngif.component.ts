@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./ngif.component.css']
 })
 export class NgifComponent {
+  lista: string[] = []
+  constructor(){
+    this.lista = [
+      "mouse",
+      "teclado",
+      "cabo",
+      "monitor",
+    ]
+  }
   argument = "false";
 }

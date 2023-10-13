@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { ButtonComponent } from './button/button.component';
 import { TitleOnInitComponent } from './title-on-init/title-on-init.component';
+import { NgifComponent } from './ngif/ngif.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
     ButtonComponent,
-    TitleOnInitComponent
+    TitleOnInitComponent,
+    NgifComponent
   ],
   imports: [
     BrowserModule,

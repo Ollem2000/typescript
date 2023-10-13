@@ -1,4 +1,10 @@
 <app-hello></app-hello>
 <app-title-on-init></app-title-on-init>
 <app-button></app-button>
+<app-ngif *ngIf="true; else condicao"></app-ngif>
+
+<ng-template #condicao>
+    <p>Estou invisivel</p>
+</ng-template>
+
 <router-outlet></router-outlet>

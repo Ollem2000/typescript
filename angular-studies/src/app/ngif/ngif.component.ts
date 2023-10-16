@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./ngif.component.css']
 })
 export class NgifComponent {
+  argument = "false";
+
   lista: string[] = []
   constructor(){
     this.lista = [
@@ -14,6 +16,12 @@ export class NgifComponent {
       "cabo",
       "monitor",
     ]
+  };
+
+  adicionar(){
+    this.lista.push("New-item");
   }
-  argument = "false";
+  remover(){
+    this.lista.pop();
+  }
 }

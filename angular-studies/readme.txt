@@ -9,6 +9,8 @@ diretivas
 	NgTemplate
 	NgContent
 
+	//etuder ngFor com Index e Switch e Switch Case
+
 bindings
 	{{valor}}                   //interpolação; template HTML << components ts
 	[propriedade] = "valor"     //property binding; template HTML << components ts
